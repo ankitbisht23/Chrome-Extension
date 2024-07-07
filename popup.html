@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>YouTube Comment Analyzer</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+      .count-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .count-label {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>YouTube Comment Analyzer</h2>
+    <div class="count-wrapper">
+      <span class="count-label">Positive:</span>
+      <span id="positive-count">0</span>
+    </div>
+    <div class="count-wrapper">
+      <span class="count-label">Negative:</span>
+      <span id="negative-count">0</span>
+    </div>
+    <div class="count-wrapper">
+      <span class="count-label">Neutral:</span>
+      <span id="neutral-count">0</span>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
