@@ -54,7 +54,7 @@ app = FastAPI()
 
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = "AIzaSyC4Vx8G6nm3Ow9xq7NluTuCCJ1d_5w4YPE"  # Replace with your actual YouTube API key
+DEVELOPER_KEY = ""  # Replace with your actual YouTube API key
 
 youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=DEVELOPER_KEY)
 
